@@ -1,9 +1,21 @@
 {
+  "name": "asofi-site",
+  "version": "1.0",
+  "description": "Website for ASOFI organization",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "find:unused": "next-unused"
+  },
   "dependencies": {
     "@mdx-js/react": "^2.1.0",
     "next": "^12.1.2",
     "nextra": "^1.1.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "next-unused": "^0.0.6"
   }
 }
