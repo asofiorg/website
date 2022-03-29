@@ -6,6 +6,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "format": "prettier --write \"./**/*.{js,jsx,json,md,mdx}\"",
     "find:unused": "next-unused"
   },
   "dependencies": {
@@ -16,6 +17,8 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "next-unused": "^0.0.6"
+    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
+    "next-unused": "^0.0.6",
+    "prettier": "^2.6.1"
   }
 }
