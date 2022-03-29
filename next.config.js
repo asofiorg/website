@@ -1,4 +1,4 @@
-const withNextra = require("nextra")("components/NextraLayout.jsx");
+const withNextra = require("nextra")("components/NextraLayout.js");
 
 module.exports = withNextra({
   i18n: {
