@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.button {
+  border: 1px solid rgba(20, 20, 20, 0.1);
+  transition: box-shadow 200ms ease;
+}
+
+.button:hover {
+  box-shadow: inset 100px 0 100px 100px rgb(20 20 20 / 10%);
+}
