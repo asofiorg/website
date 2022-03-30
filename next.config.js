@@ -10,6 +10,8 @@ const rewrites = async () => [
 ];
 
 module.exports = {
+  reactStrictMode: true,
+  swcMinify: true,
   rewrites,
   i18n: {
     locales: ["en", "es"],

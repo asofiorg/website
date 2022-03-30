@@ -38,3 +38,5 @@ You will learn and discover how to use the Python programming language to explor
 The first version of the bootcamp will be held virtually via google meet from **June 25** to **July 23**, weekly on **Saturdays and Wednesdays** from **5 p.m. to 7 p.m. (UTC - 5)**.
 
 **No previous experience required!**
+
+**[Apply here](https://lu.ma/community/com-LBpC9Ik73ZEJvnj/apply)**
