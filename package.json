@@ -10,7 +10,6 @@
     "find:unused": "next-unused"
   },
   "dependencies": {
-    "@mdx-js/react": "^2.1.0",
     "@splitbee/web": "^0.3.0",
     "gray-matter": "^4.0.3",
     "markdown-it": "^12.3.2",
