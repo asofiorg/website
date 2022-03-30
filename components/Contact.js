@@ -1,46 +1,47 @@
 import splitbee from "@splitbee/web";
-import useTranslation from "translations";
-import Button from "./Button";
 import toasthandler, { Toaster } from "react-hot-toast";
+import useTranslation from "translations";
+
+import Button from "components/Button";
 
 const Contact = () => {
   const {
     form: {
       title,
       subtitle,
-      inputs: { name, email, message, send },
+      inputs: { name, email, message, send }
     },
-    toast,
+    toast
   } = useTranslation();
 
-  const handleSubmit = (data) => {
+  const handleSubmit = data => {
     toasthandler.promise(
       splitbee.track("Contact Form Filled", {
         name: data.name,
         email: data.email,
-        message: data.message,
+        message: data.message
       }),
       toast
     );
 
     splitbee.user.set({
       name: data.name,
-      email: data.email,
+      email: data.email
     });
   };
 
   return (
-    <section className="bg-navy-400 p-8" id="contact">
+    <section className="bg-navy-600 p-8" id="contact">
       <h2 className="text-center text-5xl">{title}</h2>
       <p className="text-2xl -mt-4 text-center">{subtitle}</p>
       <form
         className="flex flex-col items-center justify-center"
-        onSubmit={(e) => {
+        onSubmit={e => {
           e.preventDefault();
           handleSubmit({
             name: e.target.name.value,
             email: e.target.email.value,
-            message: e.target.message.value,
+            message: e.target.message.value
           });
         }}
       >
@@ -61,7 +62,9 @@ const Contact = () => {
           name={"message"}
           placeholder={message}
         />
-        <Button type="submit" className="mt-2">{send}</Button>
+        <Button type="submit" className="mt-2">
+          {send}
+        </Button>
       </form>
       <Toaster />
     </section>

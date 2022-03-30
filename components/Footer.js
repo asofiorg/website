@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer>
-      <p className="font-mono font-bold text-center text-lg bg-white">{`©️ ${new Date().getFullYear()} Copyright ASOFI.`}</p>
+    <footer className="flex items-center justify-center">
+      <p className="font-mono font-bold text-lg">{`©️ ${new Date().getFullYear()} Copyright ASOFI.`}</p>
     </footer>
   );
 };
