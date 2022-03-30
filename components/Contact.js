@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-navy-600 p-8" id="contact">
+    <section className="bg-navy-400 dark:bg-navy-600 p-8" id="contact">
       <h2 className="text-center text-5xl">{title}</h2>
       <p className="text-2xl -mt-4 text-center">{subtitle}</p>
       <form

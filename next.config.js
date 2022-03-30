@@ -9,12 +9,10 @@ const rewrites = async () => [
   }
 ];
 
-const withNextra = require("nextra")("components/NextraLayout.js");
-
-module.exports = withNextra({
+module.exports = {
   rewrites,
   i18n: {
     locales: ["en", "es"],
     defaultLocale: "en"
   }
-});
+};
