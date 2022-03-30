@@ -36,7 +36,7 @@ const Header = () => {
           <a className="font-bold mx-3">{change}</a>
         </Link>
         <button
-        className="border-none bg-transparent"
+          className="border-none bg-transparent cursor-pointer text-lg"
           onClick={() =>
             theme == "dark" ? setTheme("light") : setTheme("dark")
           }
