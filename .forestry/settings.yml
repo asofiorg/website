@@ -3,7 +3,23 @@ new_page_extension: md
 auto_deploy: false
 admin_path: ''
 webhook_url: 
-sections: 
+sections:
+- type: directory
+  path: content/en
+  label: Pages in english
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - pages-in-spanish
+- type: directory
+  path: content/es
+  label: Pages in spanish
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - pages-in-spanish
 upload_dir: public/images
 public_path: "/images"
 front_matter_path: ''
