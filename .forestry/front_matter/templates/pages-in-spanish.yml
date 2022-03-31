@@ -1,4 +1,23 @@
 ---
 label: Pages in spanish
 hide_body: false
-fields: []
+fields:
+- name: Title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: image
+  type: file
+  config:
+    maxSize: 1
+  label: Image
