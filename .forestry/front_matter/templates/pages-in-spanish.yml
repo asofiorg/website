@@ -3,7 +3,7 @@ label: Pages
 hide_body: false
 display_field: Title
 fields:
-- name: Title
+- name: title
   type: text
   config:
     required: true
