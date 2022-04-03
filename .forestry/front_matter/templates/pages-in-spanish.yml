@@ -24,4 +24,5 @@ fields:
   label: Image
 pages:
 - content/en/projects.md
+- content/es/projects.md
 - content/es/proyectos.md
