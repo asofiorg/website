@@ -7,7 +7,7 @@ description: Bootcamp
 
 # Python & AI for good
 
-#[Bootcamp image](https://hub.laboratoria.la/hubfs/Talent%20Fest%20SAP003-18-1-1.jpg)
+\#[Bootcamp image](https://hub.laboratoria.la/hubfs/Talent%20Fest%20SAP003-18-1-1.jpg)
 
 ## Action
 
@@ -26,7 +26,7 @@ You will learn and discover how to use the Python programming language to explor
 ### Requirements:
 
 1. Identify with female gender, gender fluid or non-binary.
-2. **NO** you must have **prior experience**.
+2. **NO**, you don't need to have **prior experience**.
 3. **NOT** your age, nationality or ethnicity.
 
 ### Schedules
