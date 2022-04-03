@@ -23,4 +23,5 @@ fields:
     maxSize: 1
   label: Image
 pages:
+- content/en/projects.md
 - content/es/proyectos.md
