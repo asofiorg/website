@@ -22,3 +22,5 @@ fields:
   config:
     maxSize: 1
   label: Image
+pages:
+- content/es/proyectos.md
