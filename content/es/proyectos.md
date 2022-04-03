@@ -1,6 +1,6 @@
 ---
-title: Proyectos
-description: Proyectos
+title: Projects
+description: Projects
 image: ''
 
 ---
