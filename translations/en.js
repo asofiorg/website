@@ -3,7 +3,7 @@ const en = {
   name: "ASOFI",
   hashes: [
     { title: "Bootcamp", hash: "/bootcamp" },
-    { title: "Foundations", hash: "/#foundations" },
+    { title: "Projects", hash: "/projects" },
     { title: "About us", hash: "/#about" }
   ],
   contact: "Get in touch",

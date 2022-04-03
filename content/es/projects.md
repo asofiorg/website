@@ -12,7 +12,7 @@ Inspiramos y apoyamos proyectos en STEM e innovación de niñas y mujeres para l
 
 Liderado por un grupo de solo niñas, AgroSencore es un emprendimiento que quiere utilizar la Inteligencia Artificial para aumentar el beneficio de los agricultores con cultivos de sustitución, particularmente el cacao, para brindarles una opción rentable y diferente a los cultivos ilícito, mientras que los acostumbramos a los dispositivos tecnológicos.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uyGuhDq_x7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uyGuhDq_x7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-left:auto;margin-right:auto;margin-bottom:30px;margin-top:30px;"></iframe>
 
 ### #EllaEsLíder
 

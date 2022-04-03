@@ -34,7 +34,7 @@ const MarkdownContent = ({ frontMatter, content, slug }) => {
         }}
       />
       <article
-        className="prose dark:prose-invert prose-figure:flex prose-figcaption:font-mono prose-figure:flex-col prose-img:rounded-lg prose-strong:text-center prose-a:text-blue-600 prose-img:m-auto prose-figcaption:-mb-12 prose-figcaption:text-center prose-figcaption:-mt-2 prose-img:max-w-3xl prose-img:w-full prose-h1:text-center prose-lg blog-container m-auto p-12"
+        className="prose prose-headings:-mt-1 flex flex-col dark:prose-invert prose-figure:flex prose-figcaption:font-mono prose-figure:flex-col prose-img:rounded-lg prose-strong:text-center prose-a:text-blue-600 prose-img:m-auto prose-figcaption:-mb-12 prose-figcaption:text-center prose-figcaption:-mt-2 prose-img:max-w-3xl prose-img:w-full prose-iframe:w-full prose-iframe:m-auto prose-h1:text-center prose-lg blog-container m-auto p-12"
         dangerouslySetInnerHTML={{
           __html: md.render(content)
         }}
