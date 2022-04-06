@@ -11,12 +11,12 @@ const es = {
   hero: {
     title: "Mujeres haciendo el cambio.",
     subtitle:
-      "Conectamos el talento de mujeres jovenes en la ciencia para la construcción de paz y el desarrollo rural."
+      "Conectamos el talento de mujeres jóvenes en la ciencia para la construcción de paz y el desarrollo rural en Colombia."
   },
   foundations: [
     {
-      title: "Visivilización",
-      subtitle: "Darle visivilidad a referentes femeninos.",
+      title: "Visibilización",
+      subtitle: "Aumentar la visibilidad de referentes femeninos.",
       color: "pink-300"
     },
     {
@@ -33,24 +33,25 @@ const es = {
   ],
   stats: {
     title: "Nuestra Misión en números",
-    subtitle: "Potenciar el talento femenino para mejorar estas estadisticas",
+    subtitle: "Potenciar el talento femenino para mejorar estas estadísticas",
     cards: [
       {
         header: "4.4M",
-        description: "Mujeres que han sido afectadas por el conflicto armado."
+        description:
+          "Mujeres que han sido afectadas por el conflicto armado en Colombia."
       },
       {
         header: "-15%",
         description: "Posiciones de liderazgo femenino en la tecnología."
       },
       {
-        header: "92.9%",
-        description: "Mujeres rurales con trabajos no remunerados."
+        header: "1.3%",
+        description: "Mujeres rurales tienen acceso a educación superior."
       },
       {
-        header: "49.6%",
+        header: "82%",
         description:
-          "De la poblacion son mujeres potenciales agentes de cambio."
+          "Personas con ingresos menores al salario mínimo en zonas de posconflicto."
       }
     ]
   },

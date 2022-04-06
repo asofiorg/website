@@ -11,11 +11,11 @@ const en = {
   hero: {
     title: "Women making change.",
     subtitle:
-      "We connect the talents of young women in science for peace building and rural development."
+      "We connect the talents of young women in science for peace building and rural development in Colombia."
   },
   foundations: [
     {
-      title: "Visivilization",
+      title: "Increase Visibility",
       subtitle: "Giving visibility to female referents.",
       color: "pink-300"
     },
@@ -44,12 +44,13 @@ const en = {
         description: "Female leadership positions in technology."
       },
       {
-        header: "92.9%",
-        description: "Rural women with unpaid jobs."
+        header: "1.3%",
+        description: "Rural women have access to higher education."
       },
       {
-        header: "49.6%",
-        description: "Of the population are women potential agents of change."
+        header: "82%",
+        description:
+          "People with incomes below the minimum wage live in post-conflict zones."
       }
     ]
   },

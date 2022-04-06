@@ -7,7 +7,7 @@ description: Bootcamp
 
 # Python & AI for good
 
-\#[Bootcamp image](https://hub.laboratoria.la/hubfs/Talent%20Fest%20SAP003-18-1-1.jpg)
+#[Bootcamp image](https://hub.laboratoria.la/hubfs/Talent%20Fest%20SAP003-18-1-1.jpg)
 
 ## Action
 
