@@ -8,6 +8,7 @@ const es = {
   ],
   contact: "Ponte en contacto",
   change: "In English",
+  changeTheme: "Cambiar tema",
   hero: {
     title: "Mujeres haciendo el cambio.",
     subtitle:

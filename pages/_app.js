@@ -14,10 +14,7 @@ const App = ({ Component, pageProps }) => {
   const router = useRouter();
 
   useEffect(() => {
-    splitbee.init({
-      apiUrl: "/sb-api",
-      scriptUrl: "/sb.js"
-    });
+    splitbee.init();
   }, []);
 
   return (

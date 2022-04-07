@@ -8,7 +8,8 @@ import Button from "components/Button";
 
 const Header = () => {
   const router = useRouter();
-  const { hashes, name, contact, locale, change } = useTranslation();
+  const { hashes, name, contact, locale, change, changeTheme } =
+    useTranslation();
 
   const { asPath } = router;
 
@@ -35,14 +36,12 @@ const Header = () => {
         >
           <a className="font-bold mx-3">{change}</a>
         </Link>
-        <button
-          className="border-none bg-transparent cursor-pointer text-lg"
-          onClick={() =>
-            theme == "dark" ? setTheme("light") : setTheme("dark")
-          }
+        <span
+          className="font-bold mx-3 cursor-pointer"
+          onClick={() => setTheme(theme === "light" ? "dark" : "light")}
         >
-          {theme == "dark" ? "☀️" : "🌙"}
-        </button>
+          {changeTheme}
+        </span>
       </nav>
       <Button
         className="mx-2"
