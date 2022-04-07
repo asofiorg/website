@@ -8,7 +8,13 @@ const defaultSeo_en = {
     site_name: "ASOFI",
     title: "ASOFI",
     description:
-      "We connect the talents of young women in science for peace building and rural development."
+      "We connect the talents of young women in science for peace building and rural development.",
+    images: [
+      {
+        url: "https://github.com/asofiorg/.github/blob/main/ASOFI.png?raw=true",
+        alt: "ASOFI Banner"
+      }
+    ]
   }
 };
 
@@ -22,7 +28,13 @@ const defaultSeo_es = {
     site_name: "ASOFI",
     title: "ASOFI",
     description:
-      "Conectamos el talento de mujeres jovenes en la ciencia para la construcción de paz y el desarrollo rural."
+      "Conectamos el talento de mujeres jovenes en la ciencia para la construcción de paz y el desarrollo rural.",
+    images: [
+      {
+        url: "https://github.com/asofiorg/.github/blob/main/ASOFI.png?raw=true",
+        alt: "ASOFI Banner"
+      }
+    ]
   }
 };
 

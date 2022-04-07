@@ -1,7 +1,7 @@
 ---
 title: Bootcamp
-description: Bootcamp
-
+description: Enseñamos a programar a las niñas de América Latina para que tengan un impacto en las comunidades de todo el mundo.
+image: https://hub.laboratoria.la/hubfs/Talent%20Fest%20SAP003-18-1-1.jpg
 ---
 **TBD**
 

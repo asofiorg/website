@@ -30,7 +30,13 @@ const MarkdownContent = ({ frontMatter, content, slug }) => {
         description={frontMatter.description}
         openGraph={{
           title: frontMatter.title,
-          description: frontMatter.description
+          description: frontMatter.description,
+          images: [
+            {
+              url: frontMatter.image,
+              alt: frontMatter.title
+            }
+          ]
         }}
       />
       <article

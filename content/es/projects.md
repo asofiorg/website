@@ -1,8 +1,7 @@
 ---
-title: Projects
-description: Projects
-image: ''
-
+title: Proyectos
+description: Llevamos a cabo proyectos que impactan y transforman a las comunidades vulnerables.
+image: https://i.ytimg.com/vi/NhA2MfCczOQ/maxresdefault.jpg
 ---
 # Colaboración
 

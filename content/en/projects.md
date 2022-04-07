@@ -1,8 +1,7 @@
 ---
 title: Projects
-description: Projects
-image: ''
-
+description: We carry out projects that impact and transform vulnerable communities.
+image: https://i.ytimg.com/vi/NhA2MfCczOQ/maxresdefault.jpg
 ---
 # Collaboration
 
