@@ -72,7 +72,7 @@ const en = {
     more: "Learn more"
   },
   sponsors: {
-    title: "The organizations that support us."
+    title: "Supported by"
   },
   form: {
     title: "Get in touch",

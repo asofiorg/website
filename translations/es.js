@@ -73,7 +73,7 @@ const es = {
     more: "Conoce más"
   },
   sponsors: {
-    title: "Las organizaciones que nos respaldan."
+    title: "Respaldado por"
   },
   form: {
     title: "Contactanos",

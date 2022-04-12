@@ -9,7 +9,7 @@ const Hero = () => {
   } = useTranslation();
 
   return (
-    <section className="py-4 px-16 w-full max-w-4xl m-auto flex flex-col items-center justify-center">
+    <section className="pt-4 px-16 w-full max-w-4xl m-auto flex flex-col items-center justify-center">
       <h1 className="m-8 text-center text-6xl m:text-7xl lg:text-8xl">
         {title}
       </h1>
