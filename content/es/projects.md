@@ -15,6 +15,7 @@ Liderado por un grupo de solo niñas, AgroSencore es un emprendimiento que quier
 
 ### #EllaEsLíder
 
-Reconocidas como "Innovadoras" por la Fundación Conrad, patrocinada por la NASA. Ellas usan STEM para **construir paz y fomentar el desarrollo rural**
+**Reconocidas como “Innovadoras”**, entre 2.000 jóvenes de 45 países, por la **Fundación Conrad**, patrocinada por la NASA en la categoría de Cibertecnología y Seguridad, presentada por Dell Technologies. 
+Ellas usan **STEM para construir paz y fomentar el desarrollo rural**.
 
 #[Equipo de #EllaEsLíder](/images/captura-de-pantalla-2022-04-03-a-la-s-3-58-47-p-m.png)

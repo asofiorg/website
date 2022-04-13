@@ -12,7 +12,7 @@ const es = {
   hero: {
     title: "Mujeres haciendo el cambio.",
     subtitle:
-      "Conectamos el talento de mujeres jóvenes en la ciencia para la construcción de paz y el desarrollo rural en Colombia."
+      "Conectamos el talento de mujeres jóvenes en STEM para la construcción de paz y el desarrollo rural en Colombia."
   },
   foundations: [
     {
@@ -62,12 +62,12 @@ const es = {
       {
         title: "Somos una plataforma",
         subtitle:
-          "Que visiviliza, conecta y empodera el talento de niñas y mujeres jovenes para vincularlo a la construccion de paz y desarrollo rural a traves de la tecnologia."
+          "Que visiviliza, conecta y empodera el talento de niñas y mujeres jóvenes para vincularlo a la construcción de paz y desarrollo rural a través de STEM."
       },
       {
         title: "Somos una misión",
         subtitle:
-          "Que reconoce el rol protagónico de la mujer para el progreso social y tecnologico."
+          "Que reconoce el rol protagónico de la mujer para el progreso social y en STEM."
       }
     ],
     more: "Conoce más"
@@ -76,7 +76,7 @@ const es = {
     title: "Respaldado por"
   },
   form: {
-    title: "Contactanos",
+    title: "Contáctanos",
     subtitle: "Imagina todo lo que puedes hacer con nosotros.",
     inputs: {
       name: "Tu nombre",

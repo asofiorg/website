@@ -12,7 +12,7 @@ const en = {
   hero: {
     title: "Women making change.",
     subtitle:
-      "We connect the talents of young women in science for peace building and rural development in Colombia."
+      "We connect the talents of young women in STEM for peace building and rural development in Colombia."
   },
   foundations: [
     {
@@ -61,7 +61,7 @@ const en = {
       {
         title: "We are a platform",
         subtitle:
-          "That visivilizes, connects and empowers the talent of girls and young women to link it to peace building and rural development through technology."
+          "That visibilizes, connects and empowers the talent of girls and young women to link it to peace building and rural development through STEM."
       },
       {
         title: "We are a mission",

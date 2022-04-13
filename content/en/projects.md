@@ -15,6 +15,7 @@ Led by a group of only girls, AgroSencore is a startup that wants to use Artific
 
 ## #SheIsLeader
 
-Recognized as "Innovators" by the NASA-sponsored Conrad Foundation. They use STEM **to build peace and foster rural development.**
+**Recognized as "Innovators"** among 2,000 youths from 45 countries by the **Conrad Foundation**, sponsored by NASA in the category of Cyber Technology and Security, presented by Dell Technologies.
+They use **STEM to build peace and foster rural development**.
 
 #[SheIsLeader Team](/images/captura-de-pantalla-2022-04-03-a-la-s-3-58-47-p-m.png)

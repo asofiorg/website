@@ -31,7 +31,7 @@ Aprenderás y descubrirás cómo utilizar el lenguaje de programación Python pa
 
 ### Horarios
 
-La primera versión del bootcamp se dará de manera virtual a través de google meet desde **Junio 25** hasta **Julio 23**, semanalmente los **sábados y miércoles** de **5 p.m a 7 p.m (UTC - 5)**.
+La primera versión del bootcamp se dará de manera virtual a través de google meet.
 
 **¡No necesitas experiencia previa!**
 
