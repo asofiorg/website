@@ -16,6 +16,11 @@ const redirects = async () => [
     permanent: true
   },
   {
+    source: "/community",
+    destination: "https://lu.ma/community/com-LBpC9Ik73ZEJvnj",
+    permanent: true
+  },
+  {
     source: "/laura",
     destination: "https://ayo.so/l_gomezjurado",
     permanent: true
