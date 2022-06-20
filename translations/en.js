@@ -2,7 +2,6 @@ const en = {
   locale: "en",
   name: "ASOFI",
   hashes: [
-    { title: "Bootcamp", hash: "/bootcamp" },
     { title: "Projects", hash: "/projects" },
     { title: "About us", hash: "/#about" }
   ],
