@@ -10,25 +10,25 @@ const Sponsors = () => {
       <h2 className="text-center text-4xl pb-2">{title}</h2>
       <section className="flex flex-wrap items-center justify-evenly py-4 mb-8">
         <a
-          href="https://vercel.com/?utm_source=asofi&utm_campaign=oss"
+          href="https://www.unwomen.org/en"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            src="/images/vercel.svg"
+            src="/images/unw.png"
             className="h-20 w-64"
-            alt="Vercel logo"
+            alt="UN Women logo"
           />
         </a>
         <a
-          href="https://hackclub.com/"
+          href="https://forum.generationequality.org/multi-stakeholder-leadership-group"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            src="/images/hackclub.svg"
+            src="/images/ungef.png"
             className="h-20 w-64"
-            alt="Hackclub logo"
+            alt="UN GEF logo"
           />
         </a>
         <a href="https://girlup.org/" target="_blank" rel="noopener noreferrer">
