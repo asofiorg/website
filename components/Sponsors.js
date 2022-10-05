@@ -26,7 +26,7 @@ const Sponsors = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="/images/ungef.png"
+            src="/images/gefun.png"
             className="h-20 w-64"
             alt="UN GEF logo"
           />
