@@ -8,7 +8,7 @@ import Stats from "components/Stats";
 const Home = () => {
   return (
     <>
-      <section className="bg-pink-200 dark:bg-pink-400">
+      <section className="bg-pink-200">
         <Hero />
         <Sponsors />
       </section>

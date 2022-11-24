@@ -77,6 +77,8 @@ const es = {
   form: {
     title: "Contáctanos",
     subtitle: "Imagina todo lo que puedes hacer con nosotros.",
+    submitted: "¡Recibimos tu mensaje!",
+    submittedSubtitle: "Pronto nos pondremos en contacto contigo.",
     inputs: {
       name: "Tu nombre",
       email: "Tu correo electronico",

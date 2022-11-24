@@ -1,6 +1,5 @@
 module.exports = {
   important: true,
-  darkMode: "class",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,md,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,md,mdx}",
@@ -14,18 +13,6 @@ module.exports = {
     },
     extend: {
       colors: {
-        cerise: {
-          50: "#fdfcfb",
-          100: "#fbeff0",
-          200: "#f8cbe3",
-          300: "#ef9dc4",
-          400: "#ee6ca2",
-          500: "#e44985",
-          600: "#d03064",
-          700: "#aa2449",
-          800: "#7e1a2f",
-          900: "#4e1119"
-        },
         cerise: {
           50: "#fdfcfa",
           100: "#fbf0ea",

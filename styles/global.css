@@ -27,12 +27,3 @@ a {
 .button:hover {
   box-shadow: inset 100px 0 100px 100px rgb(20 20 20 / 10%);
 }
-
-.button-dark {
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  transition: box-shadow 200ms ease;
-}
-
-.button-dark:hover {
-  box-shadow: inset 100px 0 100px 100px rgba(255, 255, 255, 0.3);
-}

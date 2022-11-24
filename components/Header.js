@@ -1,22 +1,19 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-import { useTheme } from "next-themes";
 import useTranslation from "translations";
 
 import Button from "components/Button";
 
 const Header = () => {
   const router = useRouter();
-  const { hashes, name, contact, locale, change, changeTheme } =
+  const { hashes, name, contact, locale, change } =
     useTranslation();
 
   const { asPath } = router;
 
-  const { theme, setTheme } = useTheme();
-
   return (
-    <header className="bg-pink-200 dark:bg-pink-400 flex flex-wrap items-center justify-around px-2 z-10">
+    <header className="bg-pink-200 flex flex-wrap items-center justify-around px-2 z-10">
       <p
         onClick={() => router.push("/")}
         className="cursor-pointer font-bold text-3xl mx-2"
@@ -36,12 +33,6 @@ const Header = () => {
         >
           <a className="font-bold mx-3">{change}</a>
         </Link>
-        <span
-          className="font-bold mx-3 cursor-pointer"
-          onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-        >
-          {changeTheme}
-        </span>
       </nav>
       <Button
         className="mx-2"

@@ -3,8 +3,9 @@ import { useRouter } from "next/router";
 import splitbee from "@splitbee/web";
 import { defaultSeo_en, defaultSeo_es } from "SEO.config";
 import { DefaultSeo } from "next-seo";
-import { ThemeProvider } from "next-themes";
+import "prismjs/themes/prism-tomorrow.css";
 import { useEffect } from "react";
+import "react-notion/src/styles.css";
 
 import Layout from "components/Layout";
 
@@ -18,7 +19,7 @@ const App = ({ Component, pageProps }) => {
   }, []);
 
   return (
-    <ThemeProvider attribute="class">
+    <>
       {router.locale === "en" ? (
         <DefaultSeo {...defaultSeo_en} />
       ) : (
@@ -27,7 +28,7 @@ const App = ({ Component, pageProps }) => {
       <Layout>
         <Component {...pageProps} />
       </Layout>
-    </ThemeProvider>
+    </>
   );
 };
 

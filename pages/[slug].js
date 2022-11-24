@@ -1,99 +1,56 @@
-import fs from "fs";
-import matter from "gray-matter";
-import markdown from "markdown-it";
 import { NextSeo } from "next-seo";
-import path from "path";
+import { NotionRenderer } from "react-notion";
 
 import Contact from "components/Contact";
 
-const MarkdownContent = ({ frontMatter, content, slug }) => {
-  const md = markdown({ linkify: true, typographer: true, html: true }).use(
-    require("markdown-it-figure")
-  );
+import { getAllPosts, getPost } from "utils/posts";
 
-  md.renderer.rules.image = (tokens, idx, options, env, slf) => {
-    const token = tokens[idx];
-    token.attrs[token.attrIndex("alt")][1] = slf.renderInlineAsText(
-      token.children,
-      options,
-      env
-    );
-    token.attrSet("loading", "lazy");
-    token.attrSet("decoding", "async");
-    return slf.renderToken(tokens, idx, options);
-  };
-
+const MarkdownContent = ({ post, blocks }) => {
   return (
     <>
       <NextSeo
-        title={frontMatter.title}
-        description={frontMatter.description}
+        title={post.title}
+        description={post.description}
         openGraph={{
-          title: frontMatter.title,
-          description: frontMatter.description,
-          images: [
-            {
-              url: frontMatter.image,
-              alt: frontMatter.title
-            }
-          ]
+          title: post.title,
+          description: post.description
         }}
       />
-      <article
-        className="prose prose-headings:-mt-1 flex flex-col dark:prose-invert prose-figure:flex prose-figcaption:font-mono prose-figure:flex-col prose-img:rounded-lg prose-strong:text-center prose-a:text-blue-600 prose-img:m-auto prose-figcaption:-mb-12 prose-figcaption:text-center prose-figcaption:-mt-2 prose-img:max-w-3xl prose-img:w-full prose-iframe:w-full prose-iframe:m-auto prose-h1:text-center prose-lg blog-container m-auto p-12"
-        dangerouslySetInnerHTML={{
-          __html: md.render(content)
-        }}
-      />
+      <article className="text-justify prose m-auto p-8 prose-headings:text-center prose-headings:m-8 prose-img:rounded prose-p:font-sans prose-headings:font-sans prose-h1:text-5xl prose-h2:text-4xl prose-h3:text-3xl prose-h4:text-2xl prose-h5:text-xl prose-p:text-lg prose-p:mb-6">
+        <NotionRenderer blockMap={blocks} />
+      </article>
       <Contact />
     </>
   );
 };
 
 export const getStaticPaths = async () => {
-  const filesEn = fs.readdirSync(path.join("content", "en"));
-  const filesEs = fs.readdirSync(path.join("content", "es"));
-
-  const paths = [];
-
-  filesEn.map(file =>
-    paths.push({
-      params: {
-        slug: file.replace(".md", "")
-      },
-      locale: "en"
-    })
-  );
-
-  filesEs.map(file =>
-    paths.push({
-      params: {
-        slug: file.replace(".md", "")
-      },
-      locale: "es"
-    })
-  );
+  const posts = await getAllPosts();
 
   return {
-    paths,
+    paths: posts.map(post => ({
+      params: {
+        slug: post.slug
+      },
+      locale: post.locale
+    })),
     fallback: false
   };
 };
 
 export const getStaticProps = async ({ locale, params: { slug } }) => {
-  const markdownWithMeta = fs.readFileSync(
-    path.join("content", locale, slug + ".md"),
-    "utf-8"
-  );
+  const posts = await getAllPosts();
 
-  const { data: frontMatter, content } = matter(markdownWithMeta);
+  const post = posts.find(post => post.slug === slug && post.locale === locale);
+
+  const blocks = await getPost(post.id);
 
   return {
     props: {
-      frontMatter,
-      slug,
-      content
-    }
+      blocks,
+      post
+    },
+    revalidate: 60
   };
 };
 
